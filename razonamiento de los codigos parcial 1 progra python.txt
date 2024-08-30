@@ -1,0 +1,51 @@
+1 tienda, 
+Objetivos del Programa
+Facilitar la gestión de inventario: Permitir a Niña Mary agregar productos y mantener un registro actualizado de los mismos.
+Registrar ventas de manera eficiente: Calcular el total de la venta y el vuelto, y actualizar el inventario en consecuencia.
+Interfaz interactiva: Proveer un menú fácil de usar para que Niña Mary pueda realizar todas las operaciones necesarias sin complicaciones.
+Estructura del Código
+
+Lista de productos: Utilizamos una lista para almacenar los productos, cada uno representado como un diccionario con su nombre, cantidad y precio sugerido. Esto permite un acceso y manipulación de datos sencillo y eficiente.
+Funciones específicas:
+
+agregar_producto: Esta función permite agregar nuevos productos al inventario. Utiliza input() para recibir los datos del usuario, asegurando que Niña Mary pueda ingresar la información directamente.
+
+registrar_venta: Esta función maneja el proceso de venta, incluyendo la verificación de inventario, cálculo del total y del vuelto, y actualización de la cantidad de productos. Esto asegura que el inventario siempre esté actualizado y que las transacciones sean precisas.
+
+mostrar_inventario: Esta función muestra todos los productos disponibles en la tienda, permitiendo a Niña Mary revisar el inventario en cualquier momento.
+
+Menú interactivo: La función menu proporciona una interfaz de usuario simple y clara, permitiendo a Niña Mary seleccionar entre agregar productos, registrar ventas, mostrar el inventario o salir del programa. Esto hace que el programa sea fácil de usar y accesible.
+Beneficios
+
+Eficiencia: Automatiza tareas que antes se hacían manualmente, ahorrando tiempo y reduciendo errores.
+Accesibilidad: La interfaz de menú es intuitiva y fácil de usar, incluso para personas con poca experiencia en tecnología.
+Flexibilidad: El código puede ser fácilmente expandido para incluir más funcionalidades según las necesidades de Niña Mary.
+
+2- asistencia del col, Objetivo del Código:
+
+Registrar Asistencia: Facilitar el registro de asistencia de los estudiantes en un sistema digital en lugar de utilizar hojas de papel.
+
+Gestionar Permisos: Incluir una razón para permisos y permitir que el director revise estos permisos.
+Estructura de Datos:
+
+Lista de Estudiantes: Utiliza una lista de diccionarios, donde cada diccionario representa a un estudiante y contiene su nombre y una lista de asistencias. Esto facilita la adición y búsqueda de estudiantes.
+
+Asistencias: Cada entrada en la lista de asistencias es un diccionario con la fecha, el estado de asistencia (asistencia, permiso o inasistencia), y una razón opcional para permisos. Esto permite un seguimiento detallado de cada evento de asistencia.
+
+Funciones Clave:
+
+Agregar Estudiante: Permite ingresar nuevos estudiantes al sistema, asegurando que cada estudiante tenga su propio registro para asistir a futuras actividades.
+
+Registrar Asistencia: Permite registrar la asistencia de un estudiante con la fecha, el estado y, si es un permiso, una razón. Esto asegura que todos los detalles relevantes se registren de forma estructurada.
+
+Mostrar Registros: Proporciona una forma de ver todas las asistencias registradas para cada estudiante, ayudando a monitorear la asistencia de manera efectiva.
+
+Revisar Permisos Pendientes: Añadido en la propuesta de mejora para revisar los permisos pendientes de revisión por el director, lo que facilita el seguimiento y la gestión de permisos.
+Menú Principal:
+
+Interactividad: Ofrece un menú simple para acceder a las diferentes funciones, permitiendo al usuario (docente o administrador) realizar operaciones como agregar estudiantes, registrar asistencias, ver registros y revisar permisos.
+Control de Flujo: Facilita la navegación y asegura que el usuario pueda realizar solo una acción a la vez, reduciendo errores y mejorando la eficiencia.
+Validación y Mejora:
+
+Validación de Estado de Asistencia: Asegura que solo se ingresen estados válidos (asistencia, permiso, inasistencia), evitando errores de entrada.
+Permisos Pendientes: Introduce una lista separada para permisos, haciendo más fácil para el director revisar y gestionar estos casos de forma eficiente.
